@@ -1,35 +1,10 @@
 package com.functionalProgramming;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-class Apple
-{
-    private String color;
-    private int weight;
 
-    public Apple(String color, int weight) {
-        this.color = color;
-        this.weight = weight;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-
-    public int getWeight() {
-        return weight;
-    }
-
-    @Override
-    public String toString() {
-        return "Apple{" +
-                "color='" + color + '\'' +
-                ", weight=" + weight +
-                '}';
-    }
-}
 public class AppleFilter {
 
     public static void main(String[] args) {
@@ -45,6 +20,8 @@ public class AppleFilter {
         * we can add another argument to method for weight and
         * check all the conditions
         * THIS CODE QUICKLY BECOMES VERBOSE, NOT READABLE*/
+
+
 
     }
 
